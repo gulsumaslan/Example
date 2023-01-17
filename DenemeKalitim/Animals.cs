@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DenemeKalitim
 {
-    public class Hayvan    //public kullandım her yerden hayvan sınıfına erişilmesi için
+    public class Animals    //public kullandım her yerden hayvan sınıfına erişilmesi için
     {
         public string HayvanAdi { get; set; } //farklı yollarla kullanabiliz..  1. yol ;
         public int HayvanId;            // ikinci yol.
