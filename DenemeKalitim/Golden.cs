@@ -8,9 +8,9 @@ namespace Example1
 {
    public class Golden:Dog
     {
-        public void Tip()
+        public void Medicine()
         {
-            Console.WriteLine("turuncu renkli ve kulakları uzun bir köpek türü");
+            Console.WriteLine("a type of dog with an orange color and long ears");
         }
     }
 }
