@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DenemeKalitim
 {
-    public class Dog:Animal
+    public class Dog:Animals
     {
         public void KöpekSes()
         {
