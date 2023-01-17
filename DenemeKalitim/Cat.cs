@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DenemeKalitim
+namespace Example1
 {
    public class Cat:Animals
     {
-        public string kedininKulakUzunluğu;
+        public string catsearlength;
 
-        public void KediSes()
+        public void catSound()
         {
-            Console.WriteLine("kedi miyavlar");
+            Console.WriteLine("cat meows");
 
         }
 
