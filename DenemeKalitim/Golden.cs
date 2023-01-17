@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DenemeKalitim
+namespace Example1
 {
-   public class Golden:Köpek
+   public class Golden:Dog
     {
         public void Tip()
         {
