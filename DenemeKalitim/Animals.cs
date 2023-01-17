@@ -8,18 +8,18 @@ namespace Example1
 {
     public class Animals    //public kullandım her yerden hayvan sınıfına erişilmesi için
     {
-        public string HayvanAdi { get; set; } //farklı yollarla kullanabiliz..  1. yol ;
-        public int HayvanId;            // ikinci yol.
-        public string HayvanCinsi { get; set; }
-        public string HayvanRengi { get; set; }
+        public string AnimalName { get; set; } //farklı yollarla kullanabiliz..  1. yol ;
+        public int AnimalId;            // ikinci yol.
+        public string AnimalGenus { get; set; }
+        public string AnimalColour { get; set; }
 
 
-        public void HayvanBilgileri()
+        public void AnimalInformation()
         {
-            Console.WriteLine("Hayvanın Adı: " + HayvanAdi);
-            Console.WriteLine("Hayvanın Id: " + HayvanId);
-            Console.WriteLine("Hayvanın Cinsi: " + HayvanCinsi);
-            Console.WriteLine("Hayvanın Rengi: " + HayvanRengi);
+            Console.WriteLine(" Name: " +AnimalName);
+            Console.WriteLine(" Id: " + AnimalId);
+            Console.WriteLine("Genus: " + AnimalGenus);
+            Console.WriteLine("Colour: " + AnimalColour);
 
         }
 
