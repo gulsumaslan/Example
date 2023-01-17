@@ -6,25 +6,25 @@ namespace DenemeKalitim
     {
         static void Main(string[] args)
         {
-            Kedi kedi = new Kedi();
-            kedi.HayvanAdi = "Minnoş";
-            kedi.HayvanCinsi = "scottish";
-            kedi.HayvanId = 12;
-            kedi.HayvanRengi = "gri";
-            kedi.kedininKulakUzunluğu = "kısa";
+            Cat cat = new Cat();
+            cat.HayvanAdi = "Minnoş";
+            cat.HayvanCinsi = "scottish";
+            cat.HayvanId = 12;
+            cat.HayvanRengi = "gri";
+            cat.kedininKulakUzunluğu = "kısa";
 
 
 
-            kedi.HayvanBilgileri();
+            cat.HayvanBilgileri();
             Console.ReadLine(); //consolu ekranda tutar.
 
 
-            Köpek köpek = new Köpek();
-            köpek.HayvanAdi = "kukla";
-            köpek.HayvanCinsi = "pitbul";
-            köpek.HayvanRengi = "siyah";
+            Dog dog = new Dog();
+            dog.HayvanAdi = "kukla";
+            dog.HayvanCinsi = "pitbul";
+            dog.HayvanRengi = "siyah";
 
-            köpek.HayvanBilgileri();
+            dog.HayvanBilgileri();
             Console.ReadLine();
 
         }
