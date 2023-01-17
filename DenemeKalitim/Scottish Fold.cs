@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DenemeKalitim
+namespace Example1
 {
-    public class Scottish_Fold:Kedi
+    public class Scottish_Fold:Cat
     {
         public void View()
         {
