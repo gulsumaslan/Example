@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DenemeKalitim
+namespace Example1
 {
     class Program
     {
