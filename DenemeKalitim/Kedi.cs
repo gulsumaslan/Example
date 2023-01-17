@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DenemeKalitim
 {
-   public class Kedi:Hayvan 
+   public class Cat:Animals
     {
         public string kedininKulakUzunluğu;
 
