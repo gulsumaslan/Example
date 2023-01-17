@@ -8,9 +8,9 @@ namespace Example1
 {
     public class Dog:Animals
     {
-        public void KöpekSes()
+        public void Doggies()
         {
-            Console.WriteLine("köpekler havlar");
+            Console.WriteLine("dog barks");
 
         }
     }
