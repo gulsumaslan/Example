@@ -10,7 +10,7 @@ namespace Example1
     {
         public void View()
         {
-            Console.WriteLine("Gri renkli kısa ayaklı cins kedi");
+            Console.WriteLine("Gray short-legged cat");
         }
     }
 }
