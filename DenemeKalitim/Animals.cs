@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DenemeKalitim
+namespace Example1
 {
     public class Animals    //public kullandım her yerden hayvan sınıfına erişilmesi için
     {
