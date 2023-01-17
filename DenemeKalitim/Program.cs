@@ -7,24 +7,24 @@ namespace Example1
         static void Main(string[] args)
         {
             Cat cat = new Cat();
-            cat.HayvanAdi = "Minnoş";
-            cat.HayvanCinsi = "scottish";
-            cat.HayvanId = 12;
-            cat.HayvanRengi = "gri";
-            cat.kedininKulakUzunluğu = "kısa";
+            cat.AnimalName = "Minnoş";
+            cat.AmimalGenus = "scottish";
+            cat.AnimalId = 12;
+            cat.AnimalColour = "gray";
+            cat.catsearlength = "short";
 
 
 
-            cat.HayvanBilgileri();
+            cat.AnimalInformation();
             Console.ReadLine(); //consolu ekranda tutar.
 
 
             Dog dog = new Dog();
-            dog.HayvanAdi = "kukla";
-            dog.HayvanCinsi = "pitbul";
-            dog.HayvanRengi = "siyah";
+            dog.AnimalName = "blue";
+            dog.AmimalGenus= "pitbul";
+            dog.AnimalColour = "black";
 
-            dog.HayvanBilgileri();
+            dog.AnimalInformation();
             Console.ReadLine();
 
         }
